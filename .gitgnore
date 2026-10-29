@@ -1,0 +1,19 @@
+# Python缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 日志文件
+*.log
+
+# 备份文件
+*.bak
+*.md.tmp
+
+# VSCode（看你需求，不想提交配置就开这两行，要保留settings.json就删掉）
+# .vscode/
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
