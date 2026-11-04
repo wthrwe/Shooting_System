@@ -1,0 +1,28 @@
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE配置
+.vscode/
+.idea/
+*.mxproject
+*.uvprojx
+*.uvoptx
+
+# 编译产物
+build/
+output/
+*.axf
+*.hex
+*.bin
+*.elf
+
+# 日志、临时文件
+*.log
+*.txt
+*.png
+*.jpg
+!README_assets/*.png
+
