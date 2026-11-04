@@ -1,19 +1,28 @@
-# Python缓存文件
+# Python缓存
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# 日志文件
+# IDE配置
+.vscode/
+.idea/
+*.mxproject
+*.uvprojx
+*.uvoptx
+
+# 编译产物
+build/
+output/
+*.axf
+*.hex
+*.bin
+*.elf
+
+# 日志、临时文件
 *.log
+*.txt
+*.png
+*.jpg
+!README_assets/*.png
 
-# 备份文件
-*.bak
-*.md.tmp
-
-# VSCode（看你需求，不想提交配置就开这两行，要保留settings.json就删掉）
-# .vscode/
-
-# 系统垃圾
-.DS_Store
-Thumbs.db
